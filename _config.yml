@@ -6,7 +6,6 @@ baseurl: ""
 url: "http://stefanlance.com/"
 port: 5000
 
-
 # Build settings
 markdown: kramdown
 permalink: /blog/:title/
