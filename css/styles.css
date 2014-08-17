@@ -81,6 +81,8 @@ nav {
 
 #content p {
     text-align: justify;
+    line-height: 1.75em;
+    margin-bottom: 24px;
 }
 
 #end-content {
@@ -110,7 +112,7 @@ nav {
     padding-top: 24px;
 }
 
-#post-date {
+.post-date {
     float: right;
     display: inline;
 }
