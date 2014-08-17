@@ -1,0 +1,12 @@
+# Site settings
+title: Stefan Lance
+email: stefan@stefanlance.com
+description: ""
+baseurl: ""
+url: "http://stefanlance.com/"
+port: 5000
+
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:title/
