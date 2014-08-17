@@ -45,8 +45,12 @@
 	<div id="content">
 
 	  <div id="post-header">
-	    <h3>{{ page.title }}</h3>
-	    {{ page.date | date: '%b %d, %Y' }}
+	    <span id="post-title">
+	      {{ page.title }}
+	    </span>
+	    <span id="post-date">
+	      {{ page.date | date: '%b %d, %Y' }}
+	    </span>
 	  </div>
 
 	  {{ content }}

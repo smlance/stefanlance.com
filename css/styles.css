@@ -69,6 +69,7 @@ nav {
     display: table-cell;
     vertical-align: top; /* To make text start at top */
     padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 #content pre {
@@ -90,22 +91,26 @@ nav {
     margin-left: 141px;
 }
 
+#post-title {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+}
+
 #comments * {
+    /* Still working on this. */
     width: 100%;
     display: table-cell;
-
 }
 
-.post-header {
+#post-header {
     display: block;
     clear: both;
+    padding-bottom: 18px;
+    padding-top: 24px;
 }
 
-.post-header h3 {
-    display: inline;
-}
-
-.post-date {
+#post-date {
     float: right;
     display: inline;
 }
