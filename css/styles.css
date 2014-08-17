@@ -96,10 +96,26 @@ nav {
 
 }
 
+.post-header {
+    display: block;
+    clear: both;
+}
+
+.post-header h3 {
+    display: inline;
+}
+
+.post-date {
+    float: right;
+    display: inline;
+}
+
 footer {
     margin-top: 12px;
     font-size: 11px;
     margin-left: 141px;
+    height: 140px;
+    display: block;
 }
 
 /********************************************************************/

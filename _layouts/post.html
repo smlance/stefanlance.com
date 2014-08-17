@@ -43,14 +43,21 @@
 	</nav>
 
 	<div id="content">
-	  <h3>{{ page.title }}</h3>
+
+	  <div id="post-header">
+	    <h3>{{ page.title }}</h3>
+	    {{ page.date | date: '%b %d, %Y' }}
+	  </div>
+
 	  {{ content }}
+
 	  {% if page.comments %}
 	  <div id="comments">
  	    <div id="disqus_thread"></div>
 	    <script type="text/javascript">
 	      var disqus_shortname = 'stefanlanceblog';
 	      var disqus_identifier = '{{ page.title }}';
+	      var disqus_url = '{{ site.base }}{{ page.url }}/index.html';
 	      (function() {
 	      var dsq = document.createElement('script'); dsq.type = 	      'text/javascript'; dsq.async = true;
 	      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
