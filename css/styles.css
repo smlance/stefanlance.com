@@ -85,6 +85,10 @@ nav {
     margin-bottom: 24px;
 }
 
+#content li {
+    list-style-type: decimal-leading-zero;
+}
+
 #end-content {
     border-bottom: 2px dotted;
     height: 56px;
