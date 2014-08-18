@@ -85,9 +85,9 @@ nav {
     margin-bottom: 24px;
 }
 
-#content li {
-    list-style-type: decimal-leading-zero;
-}
+/* #content li { */
+/*     list-style-type: decimal-leading-zero; */
+/* } */
 
 #end-content {
     border-bottom: 2px dotted;
