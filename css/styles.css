@@ -103,6 +103,16 @@ nav {
     width: 100%;
 }
 
+#comments {
+    margin-top:    48px;
+    margin-bottom: 48px;
+}
+
+#post-content {
+    border-bottom:  1px solid;
+    padding-bottom: 24px;
+}
+
 #post-header {
     display: block;
     clear: both;
