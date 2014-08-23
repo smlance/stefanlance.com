@@ -100,9 +100,7 @@ nav {
 }
 
 #comments * {
-    /* Still working on this. */
     width: 100%;
-    display: table-cell;
 }
 
 #post-header {
