@@ -11,7 +11,7 @@ body {
     margin: auto;
 }
 
-header, section, footer, aside, nav, main, article, figure
+header, section, footer, aside, nav, main, article
 {
     display: block;  /* Fix for older browsers without HTML5 semantics */
 }
@@ -84,10 +84,6 @@ nav {
     line-height: 1.75em;
     margin-bottom: 24px;
 }
-
-/* #content li { */
-/*     list-style-type: decimal-leading-zero; */
-/* } */
 
 #end-content {
     border-bottom: 2px dotted;
