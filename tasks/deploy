@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
+# Based on https://github.com/henrik/henrik.nyh.se/blob/master/tasks/post.
+
 jekyll build && rsync -v -rz --checksum --delete _site/ stefanlance.com:www/

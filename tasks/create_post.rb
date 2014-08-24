@@ -3,6 +3,9 @@ require 'jekyll'
 require 'fileutils'
 require 'stringex_lite'
 
+# Based on https://github.com/tamouse/jekyllpress/
+# blob/master/lib/jekyllpress.rb.
+
 class PostCreator < Thor
   include Thor::Actions
 
