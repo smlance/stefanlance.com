@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+jekyll build && rsync -v -rz --checksum --delete _site/ stefanlance.com:www/
