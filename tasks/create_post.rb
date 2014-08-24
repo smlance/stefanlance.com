@@ -9,7 +9,7 @@ require 'stringex_lite'
 class PostCreator < Thor
   include Thor::Actions
 
-  desc "create_post TITLE", "create and open a file for a post titled TITLE"
+  desc "create_post [TITLE]", "create and open a file for a post titled TITLE"
   def create_post(title = "")
     title = ask("Post title: ").to_s if title == ""
 
@@ -24,6 +24,7 @@ class PostCreator < Thor
                    tags:
                    ---
                    }.gsub(/^\s*/,''))
+    system(editor, post_path(title))
   end
 
   private
@@ -42,6 +43,10 @@ class PostCreator < Thor
 
   def author
     "Stefan"
+  end
+
+  def editor
+    "emacs"
   end
 
 end
