@@ -5,7 +5,7 @@ title: Contact
 weight: 5
 ---
 
-I regularly check my e-mail. You can reach me at:
+You can reach me at:
 
 <pre><code>[my first name] + '@' + [my last name] + 's.net'</code></pre>
 
