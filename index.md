@@ -4,4 +4,6 @@ permalink: /
 title: Home
 ---
 
-Welcome to my little home on the 'net. Feel free to look around.
+Hello. I'm Stefan.
+
+I recently graduated from the University of Chicago with a degree in mathematics. I'm a software engineer by trade.
